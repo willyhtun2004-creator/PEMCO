@@ -1,10 +1,18 @@
 /* PEMCO Engineering — site styles */
+@font-face {
+  font-family: "Cooper Black";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Cooper Black"), url("../fonts/CooperBlack.woff") format("woff");
+}
+
 :root {
   --navy: #0c2340;
   --navy-deep: #071629;
   --navy-mid: #16365f;
-  --red: #c8102e;
-  --red-dark: #9e0c24;
+  --red: #fe0000;
+  --red-dark: #c60000;
   --steel: #5b6b7c;
   --ink: #1a2330;
   --muted: #5f6d7b;
@@ -17,8 +25,8 @@
   --radius: 4px;
   --ease: cubic-bezier(.22, 1, .36, 1);
   --shadow: 0 18px 40px rgba(7, 22, 41, .14);
-  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
-  --font-body: "IBM Plex Sans", "Segoe UI", sans-serif;
+  --font-display: "Cooper Black", "Cooper Bt", Georgia, serif;
+  --font-body: "Cooper Black", "Cooper Bt", Georgia, serif;
 }
 
 *,
