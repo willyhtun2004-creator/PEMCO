@@ -1,12 +1,4 @@
 /* PEMCO Engineering — site styles */
-@font-face {
-  font-family: "Cooper Black";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("Cooper Black"), url("../fonts/CooperBlack.woff") format("woff");
-}
-
 :root {
   --navy: #0c2340;
   --navy-deep: #071629;
@@ -25,8 +17,8 @@
   --radius: 4px;
   --ease: cubic-bezier(.22, 1, .36, 1);
   --shadow: 0 18px 40px rgba(7, 22, 41, .14);
-  --font-display: "Cooper Black", "Cooper Bt", Georgia, serif;
-  --font-body: "Cooper Black", "Cooper Bt", Georgia, serif;
+  --font-display: Georgia, "Times New Roman", Times, serif;
+  --font-body: Georgia, "Times New Roman", Times, serif;
 }
 
 *,
@@ -147,7 +139,7 @@ ul {
 .brand-text strong {
   font-family: var(--font-display);
   font-size: 1.85rem;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: .04em;
   color: var(--red);
 }
@@ -155,7 +147,7 @@ ul {
 .brand-text span {
   font-size: .68rem;
   color: var(--navy);
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: .02em;
 }
 
@@ -185,7 +177,7 @@ ul {
   background: none;
   color: var(--ink);
   font-size: .95rem;
-  font-weight: 500;
+  font-weight: 400;
   cursor: pointer;
   transition: color .2s ease;
 }
@@ -532,7 +524,7 @@ ul {
 .hero-brand {
   font-family: var(--font-display);
   font-size: clamp(3rem, 8vw, 5.4rem);
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: .04em;
   color: var(--white);
   line-height: .95;
@@ -546,13 +538,13 @@ ul {
   font-size: .34em;
   letter-spacing: .18em;
   margin-top: .55rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .hero h1 {
   font-family: var(--font-display);
   font-size: clamp(1.8rem, 4.2vw, 2.7rem);
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: .02em;
   line-height: 1.15;
   max-width: 14ch;
@@ -631,7 +623,7 @@ ul {
 .eyebrow {
   display: inline-block;
   font-size: .78rem;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: .14em;
   text-transform: uppercase;
   color: var(--red);
@@ -646,7 +638,7 @@ ul {
   line-height: 1.1;
   letter-spacing: .02em;
   color: var(--navy);
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .section-head p,
@@ -828,7 +820,7 @@ ul {
   color: var(--navy);
   background: var(--fog);
   font-size: .9rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.3;
   min-height: 2.8rem;
   display: flex;
@@ -855,7 +847,7 @@ ul {
   bottom: 0;
   padding: 1.6rem .95rem .85rem;
   font-size: .92rem;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: .01em;
   color: #fff;
   background: linear-gradient(180deg, transparent 0%, rgba(7, 22, 41, .82) 100%);
@@ -1003,7 +995,7 @@ ul {
 
 .service-card .link {
   color: var(--red);
-  font-weight: 600;
+  font-weight: 400;
   font-size: .9rem;
 }
 
@@ -1058,7 +1050,7 @@ ul {
   border: 1px solid rgba(255, 255, 255, .18);
   color: var(--white);
   font-size: .78rem;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: .02em;
   transition: background .25s ease, border-color .25s ease, transform .25s ease;
 }
@@ -1115,7 +1107,7 @@ ul {
 .project-tile-more-label {
   font-family: var(--font-display);
   font-size: clamp(1.8rem, 3vw, 2.4rem);
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: .08em;
 }
 
@@ -1280,7 +1272,7 @@ ul {
 
 .project-modal-counter {
   font-size: .84rem;
-  font-weight: 600;
+  font-weight: 400;
   color: rgba(255, 255, 255, .85);
   background: rgba(255, 255, 255, .1);
   padding: .3rem .75rem;
@@ -1481,7 +1473,7 @@ ul {
 
 .clients-section .section-head h2 {
   font-size: clamp(1.35rem, 2.4vw, 1.7rem);
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: .08em;
   text-transform: uppercase;
 }
@@ -1779,7 +1771,7 @@ ul {
 .leader-card h3 {
   font-family: var(--font-display);
   font-size: 1.35rem;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: .01em;
   color: var(--navy);
   line-height: 1.15;
@@ -1841,7 +1833,7 @@ ul {
   display: grid;
   gap: .35rem;
   font-size: .9rem;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--navy);
 }
 
@@ -1881,7 +1873,7 @@ ul {
 .form-status {
   margin-top: .35rem;
   font-size: .92rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .form-status.is-success {

@@ -12,7 +12,7 @@ HEADER = """<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title}</title>
 <meta name="description" content="{description}">
-<link rel="stylesheet" href="assets/css/styles.css?v=20260921a">
+<link rel="stylesheet" href="assets/css/styles.css?v=20260921b">
 </head>
 <body>
 <a class="sr-only" href="#main">Skip to content</a>
